@@ -1,0 +1,99 @@
+main {
+  background: #ffffff;
+  grid-area: main;
+  overflow-y: auto;
+}
+
+.main__containers {
+  padding: 20px 35px;
+}
+
+.text-red {
+    color: #a5aaad;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+.main__titles {
+  display: flex;
+  align-items: center;
+}
+
+.main__titles > img {
+  max-height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.main__greetings > h1 {
+  font-size: 24px;
+  color: #2e4a66;
+  margin-bottom: 5px;
+}
+
+.main__greetings > p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #a5aaad;
+  
+}
+
+.main__cardss {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 230px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #a8b3c9;
+  text-decoration: none;
+}
+.cards:hover {
+  box-shadow: 0 8px 16px 0 #8c8f8e;
+}
+.card_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.card_inner > span {
+  font-size: 25px;
+  text-decoration: none;
+ 
+}
+
+.btn1 {
+  background-color: rgba(229, 82, 84, 1);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  opacity: 0.9;
+
+}
+
+@media only screen and (max-width: 855px) {
+  .main__cardss {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+}

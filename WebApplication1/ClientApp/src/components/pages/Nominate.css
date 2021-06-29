@@ -1,0 +1,108 @@
+
+.wrapper {
+
+  margin-top: 40px;
+  width: 94%;
+  padding: 60px 35px;
+  background-color: #ffffff;
+  font-size: 25px;
+  color: #2e4a66;
+  margin-bottom: 1px;
+  float: center;
+  justify-content: center;
+  -webkit-box-shadow: 9px 13px 25px 25px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 9px 13px 25px 25px rgba(0, 0, 0, 0.18);
+  box-shadow: 9px 13px 25px 25px rgba(0, 0, 0, 0.14);
+  animation: slideUp 2000ms forwards;
+}
+
+@keyframes slideUp {
+  0% {
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+      visibility: visible;
+  }
+
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+
+  }
+}
+
+.nominate {
+    background: #ffffff;
+    grid-area: main;
+    overflow-y: auto;
+  }
+
+  .sub > p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a5aaad;
+    
+  }
+
+.nominate {
+    padding: 20px 35px;
+    font-size: 25px;
+    color: #2e4a66;
+    margin-bottom: 0px;
+
+  }
+
+  .box {
+    display: -ms-flexbox; 
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid rgb(88, 106, 124);
+  }
+  
+.btn {
+  background-color: rgba(229, 82, 84, 1);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    opacity: 0.9;
+
+
+  }
+
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 66, 66);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  textarea.input {
+    min-height: 75px;
+    width: 100%;
+    resize: vertical;
+
+  }
+
+  @media only screen and (max-width: 855px) {
+    .nominate {
+      background: #ffffff;
+      grid-area: main;
+      overflow-y: auto;
+    }
+  }

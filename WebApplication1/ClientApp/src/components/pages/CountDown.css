@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.countbg {
+    background: #f2f1ed;
+    grid-area: main;
+    overflow-y: auto;
+    text-align: center;
+  }
+  
+  h2{
+    line-height: 40px; 
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    
+  }
+  
+  .input-fields {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-fields:focus {
+    border: 2px solid rgb(88, 106, 124);
+  }
+ 
+  .buttonn {
+    background-color: rgb(82, 73, 73);
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      cursor: pointer;
+      opacity: 0.9;
+  
+  
+    }
+
+  
+  li {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.9em;
+    font-style: bold;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+    li span {
+      font-size: 3.375rem;
+    }
+  }

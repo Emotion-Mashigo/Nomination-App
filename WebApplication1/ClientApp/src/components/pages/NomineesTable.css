@@ -1,0 +1,47 @@
+
+  
+  .employees {
+    background: #ffffff;
+    grid-area: main;
+    overflow-y: auto;
+  }
+
+.employees {
+   padding: 20px 35px;
+   font-size: 25px;
+   color: #2e4a66;
+   margin-bottom: 0px;
+  
+    }
+
+.customerst {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .customerst td, .customerst th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    .customerst tr:nth-child(even){background-color: #f2f2f2;}
+    
+    .customerst tr:hover {background-color: #ddd;}
+    
+    .customerst th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #1accbdd7;
+      color: white;
+    }
+  
+input:checked {
+      height: 20px;
+      width: 50px;
+      align-content: center;
+    }
+    
+
+     
